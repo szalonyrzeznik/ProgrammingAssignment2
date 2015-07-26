@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## This is a code that uses lexical scoping. 
+## The objective is the appointment of an inverse matrix
 
-## Write a short comment describing this function
+## This is a function which save inverse matrix in cache memory.
 
 makeCacheSolve <- function(x = matrix()) {
     i <- NULL
@@ -17,7 +17,8 @@ makeCacheSolve <- function(x = matrix()) {
          getsolve = getsolve)    
 }
 
-## Write a short comment describing this function
+## This function checks whether the searched inverse matrix is calculated. 
+## If yes then shows it. If not, then performs the necessary calculations
 
 cacheSolve <- function(x, ...) {
     i <- x$getsolve()
